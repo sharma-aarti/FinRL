@@ -66,8 +66,8 @@ TIME_ZONE_USEASTERN = "US/Eastern"  # Dow, Nasdaq, SP
 TIME_ZONE_PARIS = "Europe/Paris"  # CAC,
 TIME_ZONE_BERLIN = "Europe/Berlin"  # DAX, TECDAX, MDAX, SDAX
 TIME_ZONE_JAKARTA = "Asia/Jakarta"  # LQ45
-TIME_ZONE_SELFDEFINED = "xxx"  # If neither of the above is your time zone, you should define it, and set USE_TIME_ZONE_SELFDEFINED 1.
-USE_TIME_ZONE_SELFDEFINED = 0  # 0 (default) or 1 (use the self defined)
+TIME_ZONE_SELFDEFINED = "Asia/Kolkata"  # If neither of the above is your time zone, you should define it, and set USE_TIME_ZONE_SELFDEFINED 1.
+USE_TIME_ZONE_SELFDEFINED = 1  # 0 (default) or 1 (use the self defined)
 
 # parameters for data sources
 ALPACA_API_KEY = "xxx"  # your ALPACA_API_KEY
